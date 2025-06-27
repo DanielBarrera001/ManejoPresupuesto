@@ -10,35 +10,20 @@
     Ejemplos: Prestamos, tarjetas de credito, etc.
 </h5>
 
-<div asp-validation-summary="All" class="text-danger"></div>
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
 <form asp-action="Crear">
     <div class="mb-3">
         <label asp-for="Nombre" class="form-label">Nombre</label>
         <input type="text" asp-for="Nombre" class="form-control" />
-    </div>
-
-    <div>
-        <label asp-for="Email" class="form-label"></label>
-        <input asp-for="Email"  class="form-control" />
-    </div>
-
-    <div>
-        <label asp-for="Edad" class="form-label"></label>
-        <input asp-for="Edad" class="form-control" />
-    </div>
-
-    <div>
-        <label asp-for="URL" class="form-label"></label>
-        <input asp-for="URL" class="form-control" />
-    </div>
-
-    <div>
-        <label asp-for="TarjetaDeCredito" class="form-label"></label>
-        <input asp-for="TarjetaDeCredito" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">
         Enviar
     </button>
 </form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
