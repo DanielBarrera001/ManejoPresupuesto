@@ -5,7 +5,7 @@ namespace ManejoPresupuesto.Models
 {
     public class TipoCuenta
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         [Required(ErrorMessage = "El campo {0} es requerido")]
         [PrimeraLetraMayuscula]
         public string Nombre { get; set; }
