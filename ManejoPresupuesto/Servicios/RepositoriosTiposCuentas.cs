@@ -1,12 +1,13 @@
 ﻿using Dapper;
 using ManejoPresupuesto.Models;
 using Microsoft.Data.SqlClient;
+using System.Threading.Tasks;
 
 namespace ManejoPresupuesto.Servicios
 {
     public interface IRepositorioTiposCuentas
     {
-        void Crear(TipoCuenta tipoCuenta);
+        Task Crear(TipoCuenta tipoCuenta);
     }
 
     public class RepositoriosTiposCuentas: IRepositorioTiposCuentas
@@ -19,14 +20,15 @@ namespace ManejoPresupuesto.Servicios
             connectionstring = configuration.GetConnectionString("DefaultConnection");
         }
 
-        public void Crear(TipoCuenta tipoCuenta)
+        public async Task Crear(TipoCuenta tipoCuenta)
         {
             using var connection = new SqlConnection(connectionstring);
-            var id = connection.QuerySingle<int>($@"
-                            INSERT INTO TiposCuentas (Nombre, UsuarioId, Orden) 
-                            VALUES (@Nombre,@UsuarioId,0);
-                            SELECT SCOPE_IDENTITY();"
-                            , tipoCuenta);
+            var id = await connection.QuerySingleAsync<int>(
+                $@"
+                INSERT INTO TiposCuentas (Nombre, UsuarioId, Orden) 
+                VALUES (@Nombre,@UsuarioId,0);
+                SELECT SCOPE_IDENTITY();"
+                , tipoCuenta);
             tipoCuenta.Id = id; 
         }
     }
