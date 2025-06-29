@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\servicios\\repositoriostiposcuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\models\\tipocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\models\\tipocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\manejopresupuesto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\manejopresupuesto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\models\\tipocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\models\\tipocuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\views\\tiposcuentas\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Servicios\\RepositoriosTiposCuentas.cs",
               "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Servicios\\RepositoriosTiposCuentas.cs",
               "RelativeToolTip": "ManejoPresupuesto\\Servicios\\RepositoriosTiposCuentas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T05:42:27.788Z",
               "EditorCaption": ""
@@ -73,7 +73,7 @@
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Controllers\\TiposCuentasController.cs",
               "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Controllers\\TiposCuentasController.cs",
               "RelativeToolTip": "ManejoPresupuesto\\Controllers\\TiposCuentasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-26T01:56:29.095Z",
               "EditorCaption": ""
@@ -81,6 +81,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TipoCuenta.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\TipoCuenta.cs",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Models\\TipoCuenta.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\TipoCuenta.cs",
+              "RelativeToolTip": "ManejoPresupuesto\\Models\\TipoCuenta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:57:51.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Program.cs",
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Program.cs",
@@ -92,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ManejoPresupuesto.csproj",
               "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\ManejoPresupuesto.csproj",
               "RelativeDocumentMoniker": "ManejoPresupuesto\\ManejoPresupuesto.csproj",
@@ -101,18 +114,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-29T05:41:48.081Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TipoCuenta.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\TipoCuenta.cs",
-              "RelativeDocumentMoniker": "ManejoPresupuesto\\Models\\TipoCuenta.cs",
-              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\TipoCuenta.cs",
-              "RelativeToolTip": "ManejoPresupuesto\\Models\\TipoCuenta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T01:57:51.258Z"
             },
             {
               "$type": "Document",
