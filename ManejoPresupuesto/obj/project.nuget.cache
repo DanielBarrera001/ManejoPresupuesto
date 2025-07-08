@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LlBz5+viaH0=",
+  "dgSpecHash": "WGd36a6UDq4=",
   "success": true,
   "projectFilePath": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\ManejoPresupuesto.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Daniel\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\Daniel\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
