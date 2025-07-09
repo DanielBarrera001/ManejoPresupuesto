@@ -76,3 +76,4 @@ C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net8.
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net8.0\ManejoPresupuesto.pdb
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net8.0\ManejoPresupuesto.genruntimeconfig.cache
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net8.0\ref\ManejoPresupuesto.dll
+C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\AutoMapper.dll
