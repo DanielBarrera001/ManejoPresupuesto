@@ -22,6 +22,11 @@ namespace ManejoPresupuesto.Controllers
             this.repositorioTransacciones = repositorioTransacciones;
         }
 
+        public IActionResult Index()
+        {
+            return View();
+        }
+
         public async Task<IActionResult> Crear()
         {
             var usuarioId = serviciosUsuarios.ObtenerUsuarioId();

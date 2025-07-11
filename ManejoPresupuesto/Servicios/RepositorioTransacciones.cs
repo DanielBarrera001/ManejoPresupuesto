@@ -6,6 +6,7 @@ namespace ManejoPresupuesto.Servicios
 {
     public interface IRepositorioTransacciones
     {
+        Task Actualizar(Transaccion transaccion, decimal montoAnterior, int cuentaAnterior);
         Task Crear(Transaccion transaccion);
     }
 
@@ -32,5 +33,28 @@ namespace ManejoPresupuesto.Servicios
 
             transaccion.Id = id;
         }
+
+        public async Task Actualizar(Transaccion transaccion, decimal montoAnterior,
+            int cuentaAnterior)
+        {
+            using var connection = new SqlConnection(connectionString);
+            await connection.ExecuteAsync("Transacciones_Actualizar",
+                new
+                {
+                    transaccion.Id,
+                    transaccion.FechaTransaccion,
+                    transaccion.Monto,
+                    transaccion.CategoriaId,
+                    transaccion.CuentaId,
+                    transaccion.Nota,
+                    montoAnterior,
+                    cuentaAnterior
+                }, commandType: System.Data.CommandType.StoredProcedure);
+        }
+
+        //public async Task<Transaccion> ObtenerPorId(int id, int usuarioId)
+        //{
+        //    using var connection = new SqlConnection(connectionString);
+        //}
     }
 }
