@@ -8,7 +8,7 @@ namespace ManejoPresupuesto.Models
         public IEnumerable<SelectListItem> Cuentas { get; set; }
 
         public IEnumerable<SelectListItem> Categorias { get; set; }
-        [Display(Name = "Tipo operacion")]
+        
 
     }
 }
