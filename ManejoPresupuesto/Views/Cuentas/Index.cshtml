@@ -76,7 +76,7 @@
                             var claseCuenta = ObtenerClaseBalance(cuenta.Balance);
                             <li class="list-group-item d-flex justify-content-between">
                                 <span>
-                                    <strong>@cuenta.Nombre</strong>
+                                    <strong><a asp-action="Detalle" asp-route-id="@cuenta.Id">@cuenta.Nombre</a></strong>
                                     <a asp-action="Editar" asp-route-id="@cuenta.Id" class="btn btn-primary btn">
                                         <i class="bi-pencil-fill"></i>
                                     </a>
