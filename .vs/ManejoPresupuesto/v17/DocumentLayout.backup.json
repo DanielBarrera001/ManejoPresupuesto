@@ -3,8 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\views\\cuentas\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\views\\cuentas\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\servicios\\repositoriocuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\servicios\\repositoriocuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\servicios\\repositoriotransacciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\servicios\\repositoriotransacciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\models\\parametroobtenertransaccionesporusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\models\\parametroobtenertransaccionesporusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\views\\transacciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\views\\transacciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\views\\transacciones\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\views\\transacciones\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\models\\transaccionactualizacionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\models\\transaccionactualizacionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\models\\reportetransaccionesdetalladas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,18 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\models\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\views\\transacciones\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\views\\transacciones\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\controllers\\cuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\models\\obtenertransaccionesporcuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,24 +62,139 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReporteTransaccionesDetalladas.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\ReporteTransaccionesDetalladas.cs",
-              "RelativeDocumentMoniker": "ManejoPresupuesto\\Models\\ReporteTransaccionesDetalladas.cs",
-              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\ReporteTransaccionesDetalladas.cs",
-              "RelativeToolTip": "ManejoPresupuesto\\Models\\ReporteTransaccionesDetalladas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "RepositorioCuentas.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Servicios\\RepositorioCuentas.cs",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Servicios\\RepositorioCuentas.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Servicios\\RepositorioCuentas.cs",
+              "RelativeToolTip": "ManejoPresupuesto\\Servicios\\RepositorioCuentas.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwDAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T01:15:14.909Z",
+              "WhenOpened": "2025-08-20T00:44:42.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ManejoPresupuesto\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T00:34:51.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Transacciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Views\\Transacciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Transacciones\\Index.cshtml",
+              "RelativeToolTip": "ManejoPresupuesto\\Views\\Transacciones\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-20T00:33:42.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransaccionesController.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Controllers\\TransaccionesController.cs",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Controllers\\TransaccionesController.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Controllers\\TransaccionesController.cs",
+              "RelativeToolTip": "ManejoPresupuesto\\Controllers\\TransaccionesController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T01:19:38.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "RepositorioTransacciones.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Servicios\\RepositorioTransacciones.cs",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Servicios\\RepositorioTransacciones.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Servicios\\RepositorioTransacciones.cs",
+              "RelativeToolTip": "ManejoPresupuesto\\Servicios\\RepositorioTransacciones.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T00:40:15.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ParametroObtenerTransaccionesPorUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\ParametroObtenerTransaccionesPorUsuario.cs",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Models\\ParametroObtenerTransaccionesPorUsuario.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\ParametroObtenerTransaccionesPorUsuario.cs",
+              "RelativeToolTip": "ManejoPresupuesto\\Models\\ParametroObtenerTransaccionesPorUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T04:21:22.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Program.cs",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Program.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Program.cs",
+              "RelativeToolTip": "ManejoPresupuesto\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T00:35:46.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CuentasController.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Controllers\\CuentasController.cs",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Controllers\\CuentasController.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Controllers\\CuentasController.cs",
+              "RelativeToolTip": "ManejoPresupuesto\\Controllers\\CuentasController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAwwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T01:29:46.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Transacciones\\Editar.cshtml",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Views\\Transacciones\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Transacciones\\Editar.cshtml",
+              "RelativeToolTip": "ManejoPresupuesto\\Views\\Transacciones\\Editar.cshtml",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T02:34:04.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TransaccionActualizacionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\TransaccionActualizacionViewModel.cs",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Models\\TransaccionActualizacionViewModel.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\TransaccionActualizacionViewModel.cs",
+              "RelativeToolTip": "ManejoPresupuesto\\Models\\TransaccionActualizacionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T03:52:45.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Transaccion.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\Transaccion.cs",
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Models\\Transaccion.cs",
@@ -63,25 +202,23 @@
               "RelativeToolTip": "ManejoPresupuesto\\Models\\Transaccion.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAA0wBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T01:14:30.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T01:14:30.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Detalle.cshtml",
-              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Cuentas\\Detalle.cshtml",
-              "RelativeDocumentMoniker": "ManejoPresupuesto\\Views\\Cuentas\\Detalle.cshtml",
-              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Cuentas\\Detalle.cshtml",
-              "RelativeToolTip": "ManejoPresupuesto\\Views\\Cuentas\\Detalle.cshtml",
-              "ViewState": "AgIAADcAAAAAAAAAAAAkwE0AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-15T01:50:57.099Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "ReporteTransaccionesDetalladas.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\ReporteTransaccionesDetalladas.cs",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Models\\ReporteTransaccionesDetalladas.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\ReporteTransaccionesDetalladas.cs",
+              "RelativeToolTip": "ManejoPresupuesto\\Models\\ReporteTransaccionesDetalladas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T01:15:14.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "ObtenerTransaccionesPorCuenta.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\ObtenerTransaccionesPorCuenta.cs",
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Models\\ObtenerTransaccionesPorCuenta.cs",
@@ -89,47 +226,7 @@
               "RelativeToolTip": "ManejoPresupuesto\\Models\\ObtenerTransaccionesPorCuenta.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T01:08:51.947Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Transacciones\\Editar.cshtml",
-              "RelativeDocumentMoniker": "ManejoPresupuesto\\Views\\Transacciones\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Transacciones\\Editar.cshtml",
-              "RelativeToolTip": "ManejoPresupuesto\\Views\\Transacciones\\Editar.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAIwEEAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-12T02:34:04.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TransaccionesController.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Controllers\\TransaccionesController.cs",
-              "RelativeDocumentMoniker": "ManejoPresupuesto\\Controllers\\TransaccionesController.cs",
-              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Controllers\\TransaccionesController.cs",
-              "RelativeToolTip": "ManejoPresupuesto\\Controllers\\TransaccionesController.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAjwJsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T01:19:38.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CuentasController.cs",
-              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Controllers\\CuentasController.cs",
-              "RelativeDocumentMoniker": "ManejoPresupuesto\\Controllers\\CuentasController.cs",
-              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Controllers\\CuentasController.cs",
-              "RelativeToolTip": "ManejoPresupuesto\\Controllers\\CuentasController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAYwGMAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T01:29:46.131Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T01:08:51.947Z"
             }
           ]
         }
