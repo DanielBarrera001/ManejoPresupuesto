@@ -7,9 +7,15 @@ C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\ManejoPresupuesto.runtimeconfig.json
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\ManejoPresupuesto.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\ManejoPresupuesto.pdb
+C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\ClosedXML.dll
+C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\ClosedXML.Parser.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\Dapper.dll
+C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\ExcelNumberFormat.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
@@ -26,10 +32,13 @@ C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\RBush.dll
+C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\SixLabors.Fonts.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\System.ClientModel.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\System.IO.Packaging.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\System.Memory.Data.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
@@ -76,4 +85,3 @@ C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net8.
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net8.0\ManejoPresupuesto.pdb
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net8.0\ManejoPresupuesto.genruntimeconfig.cache
 C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net8.0\ref\ManejoPresupuesto.dll
-C:\Users\Daniel\source\repos\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net8.0\AutoMapper.dll
