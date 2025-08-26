@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\views\\transacciones\\excelreporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\views\\transacciones\\excelreporte.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\views\\transacciones\\calendario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\views\\transacciones\\calendario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\controllers\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\models\\eventocalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\models\\eventocalendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97B473F8-FE20-41BA-92DB-59031C8DE711}|ManejoPresupuesto\\ManejoPresupuesto.csproj|c:\\users\\daniel\\source\\repos\\manejopresupuesto\\manejopresupuesto\\servicios\\repositoriotransacciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,19 +42,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventoCalendario.cs",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\EventoCalendario.cs",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Models\\EventoCalendario.cs",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\EventoCalendario.cs",
+              "RelativeToolTip": "ManejoPresupuesto\\Models\\EventoCalendario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T04:38:00.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ExcelReporte.cshtml",
-              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Transacciones\\ExcelReporte.cshtml",
-              "RelativeDocumentMoniker": "ManejoPresupuesto\\Views\\Transacciones\\ExcelReporte.cshtml",
-              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Transacciones\\ExcelReporte.cshtml",
-              "RelativeToolTip": "ManejoPresupuesto\\Views\\Transacciones\\ExcelReporte.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAXAAAAAAAAAA==",
+              "Title": "Calendario.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Transacciones\\Calendario.cshtml",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Views\\Transacciones\\Calendario.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Transacciones\\Calendario.cshtml",
+              "RelativeToolTip": "ManejoPresupuesto\\Views\\Transacciones\\Calendario.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-23T01:43:27.257Z",
+              "WhenOpened": "2025-08-26T04:05:12.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ManejoPresupuesto\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ManejoPresupuesto\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-26T04:04:35.042Z",
               "EditorCaption": ""
             },
             {
@@ -57,14 +91,14 @@
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Controllers\\TransaccionesController.cs",
               "ToolTip": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Controllers\\TransaccionesController.cs",
               "RelativeToolTip": "ManejoPresupuesto\\Controllers\\TransaccionesController.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAowLkAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAzwBEBAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-23T00:47:23.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Mensual.cshtml",
               "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\Transacciones\\Mensual.cshtml",
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Views\\Transacciones\\Mensual.cshtml",
@@ -72,12 +106,11 @@
               "RelativeToolTip": "ManejoPresupuesto\\Views\\Transacciones\\Mensual.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAqwCcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-23T00:56:41.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-23T00:56:41.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RepositorioTransacciones.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Servicios\\RepositorioTransacciones.cs",
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Servicios\\RepositorioTransacciones.cs",
@@ -85,12 +118,11 @@
               "RelativeToolTip": "ManejoPresupuesto\\Servicios\\RepositorioTransacciones.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAswEEAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T00:43:12.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-23T00:43:12.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ReporteMensualViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\ReporteMensualViewModel.cs",
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Models\\ReporteMensualViewModel.cs",
@@ -98,12 +130,11 @@
               "RelativeToolTip": "ManejoPresupuesto\\Models\\ReporteMensualViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T00:53:55.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-23T00:53:55.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ResultadoObtenerPorMes.cs",
               "DocumentMoniker": "C:\\Users\\Daniel\\source\\repos\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\ResultadoObtenerPorMes.cs",
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Models\\ResultadoObtenerPorMes.cs",
@@ -111,8 +142,7 @@
               "RelativeToolTip": "ManejoPresupuesto\\Models\\ResultadoObtenerPorMes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T00:42:29.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-23T00:42:29.939Z"
             }
           ]
         }

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Bibliography;
 using ManejoPresupuesto.Models;
 using ManejoPresupuesto.Servicios;
 using Microsoft.AspNetCore.Mvc;
@@ -238,6 +239,39 @@ namespace ManejoPresupuesto.Controllers
         public IActionResult Calendario()
         {
             return View();
+        }
+
+        public async Task<JsonResult> ObtenerTransaccionesCalendario(DateTime start, DateTime end)
+        {
+            var usuarioId = serviciosUsuarios.ObtenerUsuarioId();
+            var transacciones = await repositorioTransacciones.ObtenerPorUsuarioId(new ParametroObtenerTransaccionesPorUsuario
+            {
+                UsuarioId = usuarioId,
+                FechaInicio = start,
+                FechaFin = end
+            });
+
+            var eventosCalendario = transacciones.Select(transaccion => new EventoCalendario()
+            {
+                Title = transaccion.Monto.ToString("N"),
+                Start = transaccion.FechaTransaccion.ToString("yyyy-MM-dd"),
+                End = transaccion.FechaTransaccion.ToString("yyyy-MM-dd"),
+                Color = (transaccion.TipoOperacionId == TipoOperacion.Gasto) ? "Red" : null
+            });
+
+            return Json(eventosCalendario);
+        }
+
+        public async Task<JsonResult> ObtenerTransaccionesPorFecha(DateTime fecha)
+        {
+            var usuarioId = serviciosUsuarios.ObtenerUsuarioId();
+            var transacciones = await repositorioTransacciones.ObtenerPorUsuarioId(new ParametroObtenerTransaccionesPorUsuario
+            {
+                UsuarioId = usuarioId,
+                FechaInicio = fecha,
+                FechaFin = fecha
+            });
+            return Json(transacciones);
         }
 
         public async Task<IActionResult> Crear()
