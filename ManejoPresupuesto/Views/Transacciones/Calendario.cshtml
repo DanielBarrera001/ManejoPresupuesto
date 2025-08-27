@@ -5,7 +5,32 @@
 <partial name="_Submenu" Model="SubmenuTransacciones.Calendario"/>
 
 <div id="calendario">
+</div>
 
+<div class="modal fade" id="modalTransacciones" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Transacciones del dia</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th id="modalTablaFecha" colspan="2"></th>
+                            <th id="modalTablaIngresos" class="activos"></th>
+                            <th id="modalTablaGastos" class="pasivos"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="modalTablaCuerpo"></tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismis="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 @section Scripts {
@@ -36,6 +61,10 @@
 
             const json = await response.json();
             console.log(json);
+
+            const modalTransacciones = new bootstrap.Modal(document.getElementById('modalTransacciones'));
+
+            modalTransacciones.show();
         }
     </script>
 }
