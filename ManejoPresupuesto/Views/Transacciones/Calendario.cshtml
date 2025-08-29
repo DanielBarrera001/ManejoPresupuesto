@@ -47,12 +47,12 @@
                 await buscarTransaccionesPorFecha(info.dateStr);
                 }
             });
-
             calendario.render();
         });
 
         async function buscarTransaccionesPorFecha(fecha){
-            const response = await fetch(`/transacciones/ObtenerTransaccionesPorFecha?fecha = ${fecha}`,{
+            const response = await
+            fetch(`/transacciones/ObtenerTransaccionesPorFecha?fecha=${fecha}`,{
                 method: 'GET',
                 headers: {
                     'Content-Type' : 'application/json'
@@ -60,9 +60,41 @@
             });
 
             const json = await response.json();
-            console.log(json);
 
-            const modalTransacciones = new bootstrap.Modal(document.getElementById('modalTransacciones'));
+            let ingresos = 0;
+            let gastos = 0;
+            const tipoOperacionesIngresos = 1;
+
+            const formateador = new Intl.NumberFormat('en-US',{
+                style:'currency',
+                currency:'USD'
+            });
+
+            const filas = json.map(transaccion =>{
+                if(transaccion.tipoOperacionId === tipoOperacionesIngresos){
+                    ingresos += transaccion.monto;
+                } else{
+                    gastos += transaccion.monto;
+                }
+
+                return `<tr>
+                    <td>${transaccion.categoria}</td>
+                    <td>${transaccion.cuenta}</td>
+                    <td align="right" colspan="2"
+                    class=${transaccion.tipoOperacionId === tipoOperacionesIngresos ?
+                        'activos' : 'pasivos'}>
+                        ${formateador.format(transaccion.monto)}
+                        </td>
+                </tr>`;
+            });
+
+            $("#modalTablaCuerpo").html(filas);
+            $("#modalTablaIngresos").html(formateador.format(ingresos));
+            $("#modalTablaGastos").html(formateador.format(gastos));
+            $("#modalTablaFecha").html(fecha);
+
+            const modalTransacciones = 
+            new bootstrap.Modal(document.getElementById('modalTransacciones'));
 
             modalTransacciones.show();
         }

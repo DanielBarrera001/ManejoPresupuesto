@@ -265,7 +265,8 @@ namespace ManejoPresupuesto.Controllers
         public async Task<JsonResult> ObtenerTransaccionesPorFecha(DateTime fecha)
         {
             var usuarioId = serviciosUsuarios.ObtenerUsuarioId();
-            var transacciones = await repositorioTransacciones.ObtenerPorUsuarioId(new ParametroObtenerTransaccionesPorUsuario
+            var transacciones = await repositorioTransacciones.ObtenerPorUsuarioId(
+                new ParametroObtenerTransaccionesPorUsuario
             {
                 UsuarioId = usuarioId,
                 FechaInicio = fecha,
