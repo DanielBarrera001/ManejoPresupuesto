@@ -7,10 +7,13 @@ namespace ManejoPresupuesto.Controllers
     public class UsuariosController : Controller
     {
         private readonly UserManager<Usuario> userManager;
+        private readonly SignInManager<Usuario> signInManager;
 
-        public UsuariosController(UserManager<Usuario> userManager)
+        public UsuariosController(UserManager<Usuario> userManager,
+            SignInManager<Usuario> signInManager)
         {
             this.userManager = userManager;
+            this.signInManager = signInManager;
         }
 
         public IActionResult Registro()
@@ -32,6 +35,7 @@ namespace ManejoPresupuesto.Controllers
 
             if (resultado.Succeeded)
             {
+                await signInManager.SignInAsync(usuario, isPersistent: true);
                 return RedirectToAction("Index", "Transacciones");
             }
             else
