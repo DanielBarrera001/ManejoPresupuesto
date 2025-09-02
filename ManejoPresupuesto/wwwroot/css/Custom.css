@@ -135,6 +135,49 @@ footer {
     padding: 1rem;
 }
 
+.login-card {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 800px;
+    max-width: 100%;
+}
+
+.login-info {
+    flex: 1;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form-section {
+    flex: 1;
+    padding-left: 40px;
+    border-left: 1px solid #e0e0e0;
+}
+
+    .login-form-section h2 {
+        margin-bottom: 20px;
+    }
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.25rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
 /* Submenú de Transacciones (nav-pills) */
 .nav-pills {
     margin-bottom: 1rem;
