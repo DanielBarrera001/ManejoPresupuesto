@@ -31,7 +31,8 @@ builder.Services.AddIdentityCore<Usuario>(opciones =>
     opciones.Password.RequireLowercase = false;
     opciones.Password.RequireUppercase = false;
     opciones.Password.RequireNonAlphanumeric = false;
-}).AddErrorDescriber<MensajesDeErrorIdentity>();
+}).AddErrorDescriber<MensajesDeErrorIdentity>()
+.AddDefaultTokenProviders();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -42,6 +43,8 @@ builder.Services.AddAuthentication(options =>
 {
     opciones.LoginPath = "/usuarios/login";
 });
+
+builder.Services.AddTransient<IServicioEmail, ServicioEmail>();
 
 
 var app = builder.Build();
