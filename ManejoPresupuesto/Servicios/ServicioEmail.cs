@@ -30,7 +30,7 @@ namespace ManejoPresupuesto.Servicios
 
             cliente.Credentials = new NetworkCredential(email, password);
             var emisor = email;
-            var subjetct = "H";
+            var subjetct = "Solicitud cambio de contraseña";
             var contenidoHmtl = $@"Saludos,
                Este mensaje le llega por la solicitud de cambio de contraseña solicitada. Si no fue hecha por usted puede ignorar este mensaje
 
