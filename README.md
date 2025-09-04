@@ -1,11 +1,11 @@
 
-# Manejo de Presupuesto
+# Manejo de Presupuesto 💰
 
 **Manejo de Presupuesto** es una aplicación web desarrollada para la gestión de finanzas personales. Su objetivo es permitir a los usuarios registrar y visualizar sus movimientos financieros de manera sencilla. El proyecto fue construido utilizando **C#** y sigue el patrón de diseño **MVP (Model-View-Presenter)**.
 
 ---
 
-## Funcionalidades Implementadas
+## Funcionalidades Implementadas ✨
 
 * **Gestión de Transacciones:** Registro de ingresos, gastos, categorías y cuentas.
 * **Visualización de Datos:** Permite ver los datos financieros en vistas diarias, semanales y mensuales.
@@ -15,7 +15,7 @@
 
 ---
 
-## Vistas de la Aplicación
+## Vistas de la Aplicación 🛠️
 
 A continuación se presentan capturas de pantalla de la aplicación para referencia.
 
