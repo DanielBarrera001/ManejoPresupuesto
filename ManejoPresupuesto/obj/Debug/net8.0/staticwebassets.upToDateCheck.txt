@@ -1,4 +1,5 @@
 wwwroot\css\Custom.css
+wwwroot\css\images\Fondo.jpg
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\FormularioTransacciones.js
